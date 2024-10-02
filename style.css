@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+    /* Nav Bar */
+
 .nav-bar{
     width: 100vw;
     min-height: 4rem;
@@ -18,21 +20,31 @@
 .logo{
     display: flex;
     align-items: center;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 500;
     
 }
-.home-logo{
-    font-size: 28px;
-}
-.search-bar{
-    background-color: darkgrey;
-    width: 300px;
+.setting-home{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    border-radius: 32px;
+    font-size: 1.75rem;
+}
+.home-logo{
+    font-size: 1.75rem;
+}
+.search-bar{
+    background-color: darkgrey;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    border-radius: 2rem;
+    transition: width 0.3s ease-in-out;
+}
+.search-bar:hover{
+    width: 30%;
 }
 .search-bar input{
     width: 85%;
@@ -40,25 +52,29 @@
     outline: none;
     border: none;
     background: transparent;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .search-bar button{
     height: 2.25rem;
     width: 2.25rem;
     border: none;
-    border-radius: 32px;
+    border-radius: 2rem;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 1.125rem;
+    margin-right: 0.3125rem;
 }
 .login-details{
-    width: 400px;
-    height: 40px;
+    width: 16%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;    
 }
 .login-details button{
-    width: 100px;
-    height: 36px;
+    width: 5rem;
+    height: 2.5rem;
     border: none;
-    border-radius: 32px;
-    font-size: 15px;
+    border-radius: 2rem;
+    font-size: 1rem;
 }
-
